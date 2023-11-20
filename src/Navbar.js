@@ -8,9 +8,9 @@ function Navbar() {
         <a href="#section-about">About Us</a>
         <a href="#section-contact">Contact Us</a>
   
-        <div class="dropdown">
-          <button class="dropbtn">Categories</button>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <button className="dropbtn">Categories</button>
+          <div className="dropdown-content">
             <a href="#section-nightlife">Nightlife</a>
             <a href="#section-food">Food/Drinks</a>
             <a href="#section-forecast">Forecast</a>
