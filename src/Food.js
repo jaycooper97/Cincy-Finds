@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Navbar from './Navbar';
+//import Footer from './Footer';
 
 //food image imports
 import Eatingpeople from './img/Eatingpeople.avif';
@@ -63,6 +64,7 @@ class Food extends Component {
 
             </Modal.Dialog>
         </div>
+        <br />
         <h4 className="rest">Jeff Ruby's Steakhouse</h4>
         <br />
         <img src={JeffRubys} alt="JeffRubys" />
@@ -349,7 +351,8 @@ class Food extends Component {
                 </Modal.Footer>
             </Modal.Dialog>
         </div>
-
+        <br />
+        <p>Thanks for stopping by Cincy Finds - Anything for our people!</p>
         {/*FOOTER*/}
       </div>
     )

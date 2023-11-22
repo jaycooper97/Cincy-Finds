@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import City from './img/City.avif';
+import Navbar from './Navbar';
+//import Footer from './Footer';
 
 class Contact extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <h3 className="title">We'd love to hear from you!</h3>
         <br />
         <br />
@@ -34,12 +37,13 @@ class Contact extends Component {
         <h3 className='title'>Phone number: (513) 628-4422 <br /> Email: cincy_finds_admin2023@yahoo.com</h3>
         <br />
         <br />
-      <h3 className="title">Come and see us anytime!</h3>
-      <br />
-      <p>Hours: Monday-Friday: 10a-10p <br /> Saturday: 12p-12a <br /> Sunday: 12p-10p</p>
-      <br />
-      <br />
-      <p>Thanks for stopping by Cincy Finds - Anything for our people!</p>
+        <h3 className="title">Come and see us anytime!</h3>
+        <br />
+        <p>Hours: Monday-Friday: 10a-10p <br /> Saturday: 12p-12a <br /> Sunday: 12p-10p</p>
+        <br />
+        <br />
+        <p>Thanks for stopping by Cincy Finds - Anything for our people!</p>
+        {/*Footer /> */}
       </div>
     )
   }
