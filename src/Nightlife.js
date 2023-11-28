@@ -371,6 +371,8 @@ import Anjou from './img/Anjou.png';
                         <li>Happy Hour: Tues-Fri: 3-6p</li>
 
                         <li>5.0 rating</li>
+
+                        <li>Offers gift cards</li>
                     </ul>
                 </Modal.Body>
 

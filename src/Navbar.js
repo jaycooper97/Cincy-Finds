@@ -7,7 +7,7 @@ function Navbar() {
         <a href="#section-home">Home</a>
         <a href="#section-about">About Us</a>
         <a href="#section-contact">Contact Us</a>
-  
+
         <div class="dropdown">
           <button class="dropbtn">Categories</button>
           <div class="dropdown-content">
@@ -22,5 +22,5 @@ function Navbar() {
       </nav>
     );
   }
-  
+
   export default Navbar;
