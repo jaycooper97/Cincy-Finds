@@ -31,7 +31,7 @@ const cincySchema = new Schema ({
 
     rating: {
         type: Number,
-        rewuired: true
+        required: true
     },
 
     pricing: {
