@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+//Bootstrap imports
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -51,6 +53,8 @@ import Anjou from './img/Anjou.png';
 
                 <Modal.Body>
                     <ul>
+                        <li>Address: 94-96 E Ted Berry Wy, Cincinnati, OH 45202</li>
+
                         <li>Over Ohio river</li>
 
                         <li>Riverfront</li>
@@ -58,6 +62,8 @@ import Anjou from './img/Anjou.png';
                         <li>Pedestrian walkway</li>
 
                         <li>Lit up at night</li>
+
+                        <li>Connects downtown Cincinnati, OH and Covington, KY</li>
 
                         <li>4.5 rating</li>
                     </ul>
