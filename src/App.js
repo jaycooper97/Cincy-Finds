@@ -8,6 +8,7 @@ import Navbar from './Navbar';
 import Contact from './Contact';
 import Food from './Food';
 import Home from './Home';
+import History from './History';
 import './App.css';
 import './Home.css';
 
@@ -16,16 +17,16 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-            {<Home />}
-            {<Navbar />}
-            <br />
-            {/* <Footer /> */}
+          {<Navbar />}
+          
+          <br />
+          {/* <Footer /> */}
 
-
-
-          {/*Routes tag goes after rendered components*/}
+          {/* Routes tag goes after rendered components */}
           <Routes>
             {/*<Route exact path='/' element={<Home />} />*/}
+            <Route path="/" element={<Home />} />
+            <Route path="/history" element={<History />} />
             <Route exact path='Contact/' element={<Contact />} />
             <Route path='Food/' element={<Food />} />
           </Routes>
@@ -34,5 +35,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

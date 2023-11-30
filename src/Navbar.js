@@ -1,26 +1,26 @@
-// Navbar.js
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-    return (
-      <nav>
-        <a href="#home">Cincy Finds</a>
-        <a href="#section-home">Home</a>
-        <a href="#section-about">About Us</a>
-        <a href="#section-contact">Contact Us</a>
-
-        <div class="dropdown">
-          <button class="dropbtn">Categories</button>
-          <div class="dropdown-content">
-            <a href="#section-nightlife">Nightlife</a>
-            <a href="#section-food">Food/Drinks</a>
-            <a href="#section-forecast">Forecast</a>
-            <a href="#section-parking">Parking</a>
-            <a href="#section-history">History</a>
-            <a href="#section-sports">Sports</a>
-          </div>
+  return (
+    <nav>
+      <Link to="/">Cincy Finds</Link>
+      <Link to="/">Home</Link>
+      <Link to="/history">History</Link>
+      
+      <div className="dropdown">
+        <button className="dropbtn">Categories</button>
+        <div className="dropdown-content">
+          <Link to="/nightlife">Nightlife</Link>
+          <Link to="/food">Food/Drinks</Link>
+          <Link to="/forecast">Forecast</Link>
+          <Link to="/parking">Parking</Link>
+          <Link to="/history">History</Link>
+          <Link to="/sports">Sports</Link>
         </div>
-      </nav>
-    );
-  }
+      </div>
+    </nav>
+  );
+}
 
-  export default Navbar;
+export default Navbar;
