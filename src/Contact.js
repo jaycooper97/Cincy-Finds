@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
 import City from './img/City.avif';
-import Navbar from './Navbar';
-//import Footer from './Footer';
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <h3 className="title">We'd love to hear from you!</h3>
         <br />
         <br />
@@ -19,7 +16,7 @@ class Contact extends Component {
         <br />
         <h3 className="title">Tell us everything...</h3>
         <div className="container">
-          <form action="">
+          <form className="form" action="">
             <input className="input" type="text" placeholder="First name" id="first-name" />
 
             <input className="input" type="text" placeholder='Last name' id="last-name" />
@@ -45,7 +42,6 @@ class Contact extends Component {
         <br />
         <br />
         <p>Thanks for stopping by Cincy Finds - Anything for our people!</p>
-        {/*Footer /> */}
       </div>
     )
   }
