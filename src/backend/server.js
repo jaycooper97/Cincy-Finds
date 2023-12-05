@@ -1,6 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const express = require('express');
+const cincyRoutes = require('./routes/cincy-finds');
 
 //express app
 const app = express();
@@ -11,12 +12,13 @@ app.use(express.json());
 app.use((req, res, next) => {
     console.log(req.path, req.method)
     next();
-  })
+  });
 
 
 
-//route handlers
-app.use('', );
+//route handler for reaction to requests
+//grabs all routes in router
+app.use('/api/cincy-finds', cincyRoutes);
 
 
 
