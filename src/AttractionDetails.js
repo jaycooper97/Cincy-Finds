@@ -1,4 +1,4 @@
-const AttractionDetails = ({ attraction }) => {
+const AttractionDetails = ({attraction}) => {
     return (
         <div className="attraction-details">
             <h4>{attraction.name}</h4>
