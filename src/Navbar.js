@@ -7,8 +7,8 @@ function Navbar() {
       <Link to="/">Cincy Finds</Link>
       <Link to="/">Home</Link>
       <Link to="/">About Us</Link>
-      <Link to="/">Contact Us</Link>
-      
+      <Link to="/contact">Contact Us</Link>
+
       <div className="dropdown">
         <button className="dropbtn">Categories</button>
         <div className="dropdown-content">

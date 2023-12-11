@@ -11,9 +11,11 @@ import Contact from './Contact';
 import Nightlife from './Nightlife'
 import Food from './Food';
 import History from './History';
+import AttractionForm from './AttractionForm';
 //import Footer from './Footer';
 import './App.css';
 import './Home.css';
+
 
 class App extends Component {
   render() {
@@ -32,6 +34,7 @@ class App extends Component {
             <Route exact path='/contact' element={<Contact />} />
             <Route path='/food' element={<Food />} />
             <Route path='/nightlife' element={<Nightlife />} />
+            <Route path='/addattraction' element={<AttractionForm />} />
           </Routes>
         </div>
       </BrowserRouter>
