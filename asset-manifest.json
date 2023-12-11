@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cincy-finds/static/css/main.721a6c94.css",
+    "main.css": "/cincy-finds/static/css/main.8c5c2cdb.css",
     "main.js": "/cincy-finds/static/js/main.e3ec051a.js",
     "static/js/787.2cc8604a.chunk.js": "/cincy-finds/static/js/787.2cc8604a.chunk.js",
     "static/media/cincy1.jpg": "/cincy-finds/static/media/cincy1.eb9dffbd629052e905a3.jpg",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/cincy-finds/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/cincy-finds/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cincy-finds/index.html",
-    "main.721a6c94.css.map": "/cincy-finds/static/css/main.721a6c94.css.map",
+    "main.8c5c2cdb.css.map": "/cincy-finds/static/css/main.8c5c2cdb.css.map",
     "main.e3ec051a.js.map": "/cincy-finds/static/js/main.e3ec051a.js.map",
     "787.2cc8604a.chunk.js.map": "/cincy-finds/static/js/787.2cc8604a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.721a6c94.css",
+    "static/css/main.8c5c2cdb.css",
     "static/js/main.e3ec051a.js"
   ]
 }
