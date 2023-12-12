@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <div>
-      <div className="title-container">
+      <div className="history-text-container">
         <div className="title">Cincy Finds</div>
         <div className="subtitle">Cincinnati's Hidden Gems</div>
       </div>

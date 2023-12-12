@@ -179,3 +179,29 @@ nav a {
   text-align: center;
   margin-bottom: 20px; /* Add margin for separation from cards */
 }
+
+ /* Sports Page css */
+ .sports-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.sports-text {
+  color: #333; 
+  font-size: 18px; 
+  line-height: 1.6; 
+}
+
+.sports-images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-top: 200px; 
+}
+
+.sports-image {
+  width: 200px; 
+  height: 160px; 
+  margin-bottom: 50px; 
+  border-radius: 50px; 
+}
