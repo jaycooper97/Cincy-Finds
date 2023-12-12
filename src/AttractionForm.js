@@ -76,7 +76,7 @@ const AttractionForm = () => {
 
 
     return (
-        <form className="create" onSubmit={handleSubmit}>
+        <form className="create emptyFields" onSubmit={handleSubmit}>
             <h3>Add a New Attraction</h3>
 
 

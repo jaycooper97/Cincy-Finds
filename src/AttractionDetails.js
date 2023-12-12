@@ -6,12 +6,16 @@ const Attraction = (props) => {
     const handleShow = () => setShowModal(true);
     const handleClose = () => setShowModal(false);
     return (
-        <div className='text-center mt-4 mx-2 border rounded bg-light'>
+        <div className='text-center mt-4 m-5 border rounded bg-info col-3'>
+
 
             <h5>{props.cincy.name}</h5>
-            <img className='attractionsImg' src={props.cincy.imgURL} alt='otr' />
+            <img className='attractionsImg img-fluid mx-auto' src={props.cincy.imgURL} alt='otr' />
             <p>{props.cincy.description}</p>
-            <Button variant='primary' onClick={handleShow}>
+
+
+
+            <Button className='my-5' variant='primary' onClick={handleShow}>
                 Open Details
             </Button>
 
@@ -36,9 +40,12 @@ const Attraction = (props) => {
                         <li>Pricing: {props.cincy.pricing ? props.cincy.pricing : 'Not available'}</li>
                         <li>Category: {props.cincy.category ? props.cincy.category : 'Not available'}</li>
                         <li>Website: {props.cincy.website ? props.cincy.website : 'Not available'}</li>
-                        <img src={props.cincy.imgURL} alt={props.cincy.name} />
-                        {/* Add more details based on your data structure */}
                     </ul>
+                        <div className="text-center">
+                        <img src={props.cincy.imgURL} alt={props.cincy.name} className='img-fluid'/>
+
+                        {/* Add more details based on your data structure */}
+                        </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant='secondary' onClick={handleClose}>

@@ -84,15 +84,28 @@ body {
   color: black;
 }
 
-/*Attraction form styles*/
-/* .emptyFields {
-  display: block;
-} */
+/*Attraction form input styles*/
+.emptyFields {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
 
+/*Inputs for New Attraction Form*/
+.create input{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 15px;
+}
 
-/*Modal styles*/
-/* .modal {
+/*Modal Image*/
+.modal-body img{
+  text-align: center;
+}
 
+/*Attractions Images*/
+/* .img-fluid {
+  width: auto;
 } */
 
 /*Thanks for stopping*/
