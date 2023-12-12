@@ -30,7 +30,7 @@ function History() {
       </div>
 
       {/* New section header for famous people (centered) */}
-      <div className="subtitle-container">
+      <div className="history-text-container">
         <h3 className="subtitle">Famous People from Cincinnati</h3>
       </div>
 
@@ -62,7 +62,7 @@ function History() {
       </div>
 
       {/* New section header for landmarks (centered) */}
-      <div className="subtitle-container">
+      <div className="history-text-container">
         <h3 className="subtitle">Landmarks</h3>
       </div>
 
@@ -80,21 +80,21 @@ function History() {
           </div>
         </Slider>
       </div>
-      <p className="text-color" style={{ textAlign: 'center' }}>
+      <p className="history-text-container" style={{ textAlign: 'center' }}>
         Explore these iconic landmarks that have contributed to Cincinnati's rich history and culture.
         Each landmark has its own unique story and significance, adding to the charm of the Queen City.
       </p>
-      <p className="text-color" style={{ textAlign: 'center' }}>
+      <p className="history-text-container" style={{ textAlign: 'center' }}>
         Explore the rich history of Cincinnati at the Cincinnati Museum Center. As a prominent landmark,
         the Cincinnati Museum Center is a hub of culture, education, and historical significance.
         Learn about the city's past, present, and future through captivating exhibits and engaging programs.
       </p>
-      <p className="text-color" style={{ textAlign: 'center' }}>
+      <p className="history-text-container" style={{ textAlign: 'center' }}>
         The John A. Roebling Suspension Bridge stands as an iconic symbol connecting Cincinnati and Covington,
         Kentucky. Named after its designer, John A. Roebling, this historic bridge is a masterpiece of
         engineering and a testament to Cincinnati's architectural heritage.
       </p>
-      <p className="text-color" style={{ textAlign: 'center' }}>
+      <p className="history-text-container" style={{ textAlign: 'center' }}>
         Immerse yourself in the world of performing arts at the Cincinnati Music Hall.
         With its stunning architecture and rich history, the Cincinnati Music Hall has been a
         cultural hub for music, theater, and dance performances, showcasing the city's artistic legacy.
