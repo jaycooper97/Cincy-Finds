@@ -180,28 +180,34 @@ nav a {
   margin-bottom: 20px; /* Add margin for separation from cards */
 }
 
- /* Sports Page css */
- .sports-container {
+/* Sports Page css */
+.sports-container {
   margin: 20px;
   text-align: center;
 }
 
 .sports-text {
-  color: #333; 
-  font-size: 18px; 
-  line-height: 1.6; 
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .sports-images-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
-  margin-top: 200px; 
+  align-items: flex-start;
+  margin-top: 20px; 
 }
 
 .sports-image {
-  width: 200px; 
-  height: 160px; 
-  margin-bottom: 50px; 
-  border-radius: 50px; 
+  width: 200px;
+  height: 160px;
+  margin-bottom: 20px; 
+  border-radius: 8px;
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.sports-image:hover {
+  filter: brightness(85%) grayscale(50%); 
+  transform: scale(1.1); 
 }
