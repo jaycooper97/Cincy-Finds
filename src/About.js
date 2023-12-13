@@ -2,13 +2,13 @@ import React from 'react';
 import Footer from './Footer';
 
 // Images
-import Dennis from "../imgs/AboutPics/Dennis.png"
-import Jay from "../imgs/AboutPics/Jay.jpg"
-import Alykaa from "../imgs/AboutPics/Alykaa.jpeg"
+import Dennis from "./imgs/AboutPics/Dennis.png"
+import Jay from "./imgs/AboutPics/Jay.jpg"
+import Alykaa from "./imgs/AboutPics/Alykaa.jpeg"
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Style CSS
-import '../style/style.css'
+import './style.css'
 
 
 
@@ -73,7 +73,7 @@ function About() {
                 </div>
             </div>
             <Footer />
-               
+
             </div>
     );
 };

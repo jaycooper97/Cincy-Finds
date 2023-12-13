@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 //component imports
 import Navbar from './Navbar';
 import Home from './Home';
+import About from './About'
 import Contact from './Contact';
 import Nightlife from './Nightlife'
 import Food from './Food';
@@ -24,7 +25,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          {<Navbar />}
+          <Navbar />
 
           <br />
           {/* <Footer /> */}
@@ -32,6 +33,7 @@ class App extends Component {
           {/* Routes tag goes after rendered components */}
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/history" element={<History />} />
             <Route exact path='/contact' element={<Contact />} />
             <Route path='/food' element={<Food />} />

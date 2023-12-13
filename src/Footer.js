@@ -1,6 +1,6 @@
 // Footer.js
 import React from 'react';
-import '../style/style.css';
+import './style.css';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,22 +27,22 @@ function Footer() {
 
                 <div>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faFacebook} /> 
+                    <FontAwesomeIcon icon={faFacebook} />
                     </a>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faTwitter} /> 
+                    <FontAwesomeIcon icon={faTwitter} />
                     </a>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faGoogle} /> 
+                    <FontAwesomeIcon icon={faGoogle} />
                     </a>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faInstagram} /> 
+                    <FontAwesomeIcon icon={faInstagram} />
                     </a>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faLinkedin} /> 
+                    <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     <a href='' className='me-4 text-reset'>
-                    <FontAwesomeIcon icon={faGithub} /> 
+                    <FontAwesomeIcon icon={faGithub} />
                     </a>
                 </div>
             </section>
@@ -115,13 +115,13 @@ function Footer() {
         {/* </div> */}
                             </footer>
 
-        
 
-    //     My Code 
+
+    //     My Code
     //  <hr className='footer-line' />
     //         <p>&copy; 2023 Cincy Finds | Brought to you by The Web Development Students in Kable Academy</p>
-    //          Needs to add an Icons to this 
-    //  <FontAwesomeIcon icon={faGithub} /> 
+    //          Needs to add an Icons to this
+    //  <FontAwesomeIcon icon={faGithub} />
 
     );
 }

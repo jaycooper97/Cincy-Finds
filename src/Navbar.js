@@ -6,8 +6,9 @@ function Navbar() {
     <nav>
       <Link to="/">Cincy Finds</Link>
       <Link to="/">Home</Link>
-      <Link to="/">About Us</Link>
+      <Link to="/about">About Us</Link>
       <Link to="/contact">Contact Us</Link>
+
 
       <div className="dropdown">
         <button className="dropbtn">Categories</button>
@@ -18,6 +19,7 @@ function Navbar() {
           <Link to="/parking">Parking</Link>
           <Link to="/history">History</Link>
           <Link to="/sports">Sports</Link>
+          <Link to="/addattraction">Add Attraction</Link>
         </div>
       </div>
     </nav>
