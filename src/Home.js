@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom'; 
 import './Home.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -22,7 +23,7 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000, 
+    autoplaySpeed: 5000,
   };
 
   return (
@@ -51,12 +52,25 @@ function Home() {
         </p>
       </div>
       <div className="category-container">
-        <img src={foodDrinksImage} alt="Food & Drinks" />
-        <img src={forecastImage} alt="Forecast" />
-        <img src={historyImage} alt="History" />
-        <img src={nightlifeImage} alt="Nightlife" />
-        <img src={parkingImage} alt="Parking" />
-        <img src={sportsImage} alt="Sports" />
+
+        <Link to="/food">
+          <img src={foodDrinksImage} alt="Food & Drinks" />
+        </Link>
+        <Link to="/forecast">
+          <img src={forecastImage} alt="Forecast" />
+        </Link>
+        <Link to="/history">
+          <img src={historyImage} alt="History" />
+        </Link>
+        <Link to="/nightlife">
+          <img src={nightlifeImage} alt="Nightlife" />
+        </Link>
+        <Link to="/parking">
+          <img src={parkingImage} alt="Parking" />
+        </Link>
+        <Link to="/sports">
+          <img src={sportsImage} alt="Sports" />
+        </Link>
       </div>
     </div>
   );
