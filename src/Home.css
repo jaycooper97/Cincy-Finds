@@ -99,28 +99,22 @@ nav a {
   padding: 20px;
   border-radius: 8px;
   color: #333;
-  text-align: center; /* Center text */
+  text-align: center; 
 }
 
 /* Home page 6 images */
-.category-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 -5px; /* Negative margin to make images touch */
-}
 
 
 .category-container img {
   width: calc(33.33% - 10px);
-  height: 200px;
+  height: 300px;
   margin: 5px;
-  object-fit: cover;
-  transition: filter 0.3s ease-in-out; /* Add transition for smooth effect */
+  object-fit: cover; 
+  transition: filter 0.3s ease-in-out;
 }
 
 .category-container img:hover {
-  filter: brightness(85%) grayscale(50%); /* Adjust brightness and grayscale values for the desired effect */
+  filter: brightness(85%) grayscale(50%);
 }
 
 /* History cards CSS */
@@ -140,7 +134,7 @@ nav a {
 /* History css */
 .history-card-container {
   display: flex;
-  gap: 300px; /* Adjust the gap for more spacing between cards */
+  gap: 300px; 
   justify-content: center;
   margin-top: 20px;
 }
@@ -174,12 +168,11 @@ nav a {
   border-radius: 8px;
   color: #333;
   text-align: center;
-  margin: 20px 0; /* Add margin for separation from cards */
+  margin: 20px 0; 
 }
 
 .subtitle-container {
   text-align: center;
-  margin-bottom: 20px; /* Add margin for separation from cards */
 }
 
 /* Sports Page css */
