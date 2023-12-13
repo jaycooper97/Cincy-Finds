@@ -6,8 +6,8 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faGoogle, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 // Import the Font Awesome stylesheet
-import "https://code.jquery.com/jquery-3.5.1.slim.min.js";
 import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js";
+import "https://code.jquery.com/jquery-3.5.1.slim.min.js";
 import { faHome, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 // import "https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js";
