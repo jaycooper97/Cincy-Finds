@@ -2,27 +2,35 @@
 
 /* Footer */
 footer {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    margin-bottom: 10px;
-    padding-top: 20%;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    background-color: light;
-  }
-  footer .footer-line {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  }
-  footer FontAwesomeIcon {
-    margin-top: 20%;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  width: 80%; 
+}
+
+.footer-line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+footer FontAwesomeIcon {
+  margin-top: 20%;
+}
 
 
   /* About */

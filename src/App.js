@@ -13,7 +13,7 @@ import Food from './Food';
 import History from './History';
 import Sports from './Sports';
 import AttractionForm from './AttractionForm';
-//import Footer from './Footer';
+import Footer from './Footer';
 import './App.css';
 import './Home.css';
 
@@ -27,7 +27,7 @@ class App extends Component {
           {<Navbar />}
 
           <br />
-          {/* <Footer /> */}
+          
 
           {/* Routes tag goes after rendered components */}
           <Routes>
@@ -39,6 +39,7 @@ class App extends Component {
             <Route path="/sports" element={<Sports />} />
             <Route path='/addattraction' element={<AttractionForm />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     );
