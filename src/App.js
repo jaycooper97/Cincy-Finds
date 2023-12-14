@@ -30,6 +30,8 @@ class App extends Component {
         <div>
           <Navbar />
           <br />
+
+
           {/* Routes tag goes after rendered components */}
           <Routes>
             <Route path="/" element={<Home />} />

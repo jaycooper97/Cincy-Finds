@@ -99,22 +99,21 @@ nav a {
   padding: 20px;
   border-radius: 8px;
   color: #333;
-  text-align: center; 
+  text-align: center; /* Center text */
 }
 
 /* Home page 6 images */
-
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 500px;
+}
 
 .category-container img {
   width: calc(33.33% - 10px);
-  height: 300px;
+  height: 200px;
   margin: 5px;
-  object-fit: cover; 
-  transition: filter 0.3s ease-in-out;
-}
-
-.category-container img:hover {
-  filter: brightness(85%) grayscale(50%);
 }
 
 /* History cards CSS */
@@ -129,80 +128,4 @@ nav a {
 
 .card-container .card img {
   height: 200px;
-}
-
-/* History css */
-.history-card-container {
-  display: flex;
-  gap: 300px; 
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.history-card {
-  width: 18rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding: 15px; 
-  border: 1px solid #ddd; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-.history-card img {
-  height: 200px;
-  width: 100%; 
-  object-fit: cover; 
-  border-radius: 8px 8px 0 0; 
-}
-
-.history-card .card-body {
-  text-align: center; 
-}
-
-/* Styles for text above the cards */
-.history-text-container {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  color: #333;
-  text-align: center;
-  margin: 20px 0; 
-}
-
-.subtitle-container {
-  text-align: center;
-}
-
-/* Sports Page css */
-.sports-container {
-  margin: 20px;
-  text-align: center;
-}
-
-.sports-text {
-  color: #333;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.sports-images-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 20px; 
-}
-
-.sports-image {
-  width: 200px;
-  height: 160px;
-  margin-bottom: 20px; 
-  border-radius: 8px;
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; 
-}
-
-.sports-image:hover {
-  filter: brightness(85%) grayscale(50%); 
-  transform: scale(1.1); 
 }
