@@ -1,8 +1,8 @@
 // History.js
 
 import React from 'react';
-import Slider from 'react-slick'; // Import the Slider component
-import './Home.css'; // Import your existing styles
+import Slider from 'react-slick'; 
+import './Home.css'; 
 
 
 function History() {
