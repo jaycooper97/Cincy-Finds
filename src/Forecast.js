@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from "react";
-import '../style/Forecast.css';
+import './style/Forecast.css';
 import axios from "axios";
 // import { connect } from "http2";
 // import '../style/style.css'
@@ -20,14 +20,14 @@ function Forecast() {
       };
       fetchData();
     }, [url]);
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
 
     return (
         <div className="forecast">

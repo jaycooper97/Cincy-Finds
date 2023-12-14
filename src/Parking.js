@@ -1,7 +1,5 @@
 import React from "react";
-import Footer from './Footer';
-import Nav from "../imgs/Navigation.jpeg"
-import Other from "../imgs/map.png"
+import Other from "./imgs/map.png"
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +18,7 @@ function Parking() {
 
                {/* Add map to parking */}
                <iframe src="https://www.google.com/maps/d/embed?mid=1rOdReg6owbeWOEnAZdVMS8oZAF5crOc&ehbc=2E312F&noprof=1" title="Cincy parking map " width="640" height="480"></iframe>
-               <Footer />
+
         </div>
     )
 }

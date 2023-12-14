@@ -1,20 +1,18 @@
 import React from 'react';
 import Footer from './Footer';
-
 // Images
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import Dennis from "./imgs/AboutPics/Dennis.png"
 import Jay from "./imgs/AboutPics/Jay.jpg"
 import Alykaa from "./imgs/AboutPics/Alykaa.jpeg"
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Style CSS
-import './style.css'
-
-
-
-
+import './style/style.css'
 // About page
-
 function About() {
     return (
         <div>
@@ -25,7 +23,6 @@ function About() {
                     <em><blockquote>"Success is best when it's shared" <br /> - Howard Schultz</blockquote></em>
                 </p>
                 <hr />
-
                 {/* Info */}
                 <div className="container mt-5">
                     <div className="card">
@@ -36,12 +33,12 @@ function About() {
                                 Content from Dennis About Page
                                 <b><u> Contact: </u></b>
                                 <br />
-                                logos: GitHub Linkedin Social Media presences
                             </p>
+                            <a href='' className='me-4 text-reset'>
+                            <FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
                     {/* END */}
-
                     <div className="card">
                             <img src={Jay} className='card-img-side' alt="One of our Creators" />
                         <div className="card-body">
@@ -50,12 +47,12 @@ function About() {
                                 Content from Jay About Page
                                 <b><u> Contact: </u></b>
                                 <br />
-                                logos: GitHub Linkedin Social Media presences
                             </p>
+                            <a href='git@github.com:jaycooper97/About-Me.git' className='me-4 text-reset'>
+                            <FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
                     {/* END */}
-
                      <div className="card">
                         <img src={Alykaa} className='card-img-side' alt="One of our Creators" />
                         <div className="card-body">
@@ -64,19 +61,16 @@ function About() {
                                 Content from Alykaa About Page
                                 <b><u> Contact: </u></b>
                                 <br />
-                                logos: GitHub Linkedin Social Media presences
+                                <a href='' className='me-4 text-reset'>
+                            <FontAwesomeIcon icon={faGithub}/></a>
                             </p>
                         </div>
                     </div>
                     {/* END */}
-
                 </div>
             </div>
           
-
             </div>
     );
 };
-
-
 export default About;

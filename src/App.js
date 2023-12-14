@@ -19,7 +19,7 @@ import AttractionForm from './AttractionForm';
 import Footer from './Footer';
 import './App.css';
 import './Home.css';
-import './Forecast.css';
+
 
 //comment
 
