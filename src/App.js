@@ -12,11 +12,14 @@ import Contact from './Contact';
 import Nightlife from './Nightlife'
 import Food from './Food';
 import History from './History';
+import Forecast from './Forecast'
+import Parking from './Parking'
 import Sports from './Sports';
 import AttractionForm from './AttractionForm';
-//import Footer from './Footer';
+import Footer from './Footer';
 import './App.css';
 import './Home.css';
+import './Forecast.css';
 
 //comment
 
@@ -26,10 +29,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Navbar />
-
           <br />
-          {/* <Footer /> */}
-
           {/* Routes tag goes after rendered components */}
           <Routes>
             <Route path="/" element={<Home />} />
@@ -39,13 +39,14 @@ class App extends Component {
             <Route path='/food' element={<Food />} />
             <Route path='/nightlife' element={<Nightlife />} />
             <Route path="/sports" element={<Sports />} />
+            <Route path="/forecast" element={<Forecast />} />
+            <Route path="/parking" element={<Parking />} />
             <Route path='/addattraction' element={<AttractionForm />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     );
   };
 };
-
-
 export default App;
